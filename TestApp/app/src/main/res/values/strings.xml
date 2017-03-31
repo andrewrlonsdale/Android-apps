@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Magic 8 Ball</string>
+    <string name="main_screen_name">Magic 8 Ball</string>
+    <string name="question">Ask a question...</string>
+    <string name="shake">Shake me</string>
+    <string name="answer">answer</string>
+    <string name="answer_activity_title">8 Ball says....</string>
+</resources>

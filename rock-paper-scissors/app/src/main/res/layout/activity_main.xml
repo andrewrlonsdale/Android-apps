@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.codeclan.com.rps.MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/choose"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your weapon!" />
+
+    <Button
+        android:id="@+id/rock_button"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRockButtonPressed"
+        />
+    <Button
+        android:id="@+id/paper_button"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPaperButtonPressed"
+        />
+    <Button
+        android:id="@+id/scissors_button"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onScissorsButtonPressed"
+        />
+
+
+
+</LinearLayout>

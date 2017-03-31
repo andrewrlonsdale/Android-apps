@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Persistent Data Example</string>
+    <string name="question">Put some text here</string>
+    <string name="save_text">Save</string>
+    <string name="saved_text">Saved text will be displayed here...</string>
+    <string name="say_hello">Hello!</string>
+    <string name="say_bye">bye</string>
+    <string name="menu_toast_hello">HIYA PAl, Whats Happnin</string>
+    <string name="say_goodbye">seeee yaaa</string>
+    <string name="menu_toast_goodbye">cyaaaaaa</string>
+    <string name="say_greeting">CLICK ON ME</string>
+    <string name="menu_toast_greeting">WHY THE HELL DID YOU CLICK ON ME ???????</string>
+    <string name="say_crash">crash!</string>
+    <string name="say_colour">change colour</string>
+</resources>
